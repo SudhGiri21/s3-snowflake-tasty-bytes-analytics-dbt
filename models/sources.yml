@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw_tasty_bytes
+    database: PORTFOLIO_DB
+    schema: RAW
+    tables:
+      - name: order_header
+      - name: order_detail
+      - name: customer_loyalty
+      - name: location
+      - name: menu
+      - name: franchise
+      - name: truck
+      - name: country
